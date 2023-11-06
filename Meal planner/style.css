@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+     
+}
+
+body{
+     
+    background-color: #d2d4d0fd;  
+
+}
+
+/* Navbar */
+#navbar{
+    position: sticky;
+    background-color: #FF5335;
+    padding: 40px;
+    margin-bottom: 25px;
+}
+
+/* input-form */
+
+#user-form{
+    width: 90%;
+    height: 100%;
+    margin: 40px;  
+}
+
+#outer-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input-div{
+    display: block; 
+    background-color:  white;
+    justify-content: center; 
+    width: 25rem;
+    height: 30rem;
+} 
+
+.label-class{
+    display: block;
+    text-align: left;
+    margin: 5px 10px;
+    background-color: white;
+}
+
+.input-class{
+    display: block;
+    text-align: center;
+    margin: 5px 10px;
+    width: 95%;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #FF5335;
+    background-color:  white;
+    cursor: pointer;
+}
+
+#submit-button{
+    display: block;
+    text-align: center;
+    margin: 25px 10px;
+    width: 95%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color:  #FF5335;
+    cursor: pointer;
+}
+
+/* Meal plan */
+
+#meal-plan{
+    margin: 20px; 
+}
+
+#meal-plan-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.food-image{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 5px;
+    border: 1px solid grey;
+}
+
+.meal-name{
+    background-color: white;
+    margin: 5px;
+}
+
+.get-recipe-button{
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #FF5335;
+    border-radius: 20px;
+    background-color: white;
+    cursor: pointer;
+}
+
+/* get recipe */
+
+#recipe-section{
+    margin: 40px;
+    background-color: white;
+}
+
+#meal-title{
+    margin: 5px;
+    padding: 5px;
+}
+
+#ingredients, #steps{
+    margin : 5px;
+    padding: 5px;
+}
+
+/* footer */
+
+footer{
+    padding: 40px;
+    text-align: center;
+    background-color: #FF5335;
+}
+ 
+
+ 
+

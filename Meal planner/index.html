@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Meal Planner</title>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <nav id="navbar">
+        <a href="/"><img src="./images/logo.png" /></a>
+    </nav>
+
+    <section id="user-form">
+        <div id="outer-box">
+            <div id="input-div" class="form-div">
+                <label for="weight-input" class="label-class">Weight(kg)</label>
+                <input type="number" placeholder="Enter weight in kg" id="weight-input" class="input-class" required />
+
+                <label for="height-input" class="label-class">Height(cm)</label>
+                <input type="number" placeholder="Enter height in cm" id="height-input" class="input-class" required />
+
+                <label for="age-input" class="label-class">Age</label>
+                <input type="number" placeholder="Enter age" id="age-input" class="input-class" required />
+
+                <label for="gender-input" class="label-class">Gender</label>
+                <select name="gender" id="gender-input" class="input-class">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+
+                <label for="physical-activity-input" class="label-class">Physical activity</label>
+                <select name="activity" id="physical-activity-input" class="input-class">
+                    <option value="light">Light</option>
+                    <option value="moderate">Moderate</option>
+                    <option value="active">Active</option>
+                </select>
+
+                <button type="submit" id="submit-button">Submit</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="meal-plan">
+    </section>    
+
+    <section id="recipe-section">
+    </section>
+
+
+    <!--<section id="meal-plan">
+        <div id="meal-plan-div">
+        <div class="card">
+            <img src="./images/Fried-eggs.jpeg" alt="breakfast image" class="food-image" />
+            <h2 class="meal-name">Meal Name</h2>
+            <button class="get-recipe-button">Get Recipe</button>
+        </div>
+
+        <div class="card">
+            <img src="./images/Fried-eggs.jpeg" alt="lunch image" class="food-image" />
+            <h2 class="meal-name">Meal Name</h2>
+            <button class="get-recipe-button">Get Recipe</button>
+        </div>
+
+        <div class="card">
+            <img src="./images/Fried-eggs.jpeg" alt="dinner image" class="food-image" />
+            <h2 class="meal-name">Meal Name</h2>
+            <button class="get-recipe-button">Get Recipe</button>
+        </div>
+    </div>
+    </section>
+
+    <section id="recipe-section">
+        
+        <h2 id="meal-title">Meal Name</h2>
+         
+            <h3 id= "ingredients">Ingredients</h3>
+            
+       
+
+      
+            <h3 id="steps">Steps</h3>
+             
+    </section> -->
+
+    <footer>
+        <p>&#169; Meal Planner 2023</p>
+    </footer>
+</body>
+
+</html>
